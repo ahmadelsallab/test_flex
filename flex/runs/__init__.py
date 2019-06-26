@@ -74,3 +74,27 @@ class Runner:
         # Load performance
         self.config.to_csv(csv_file='../../runs/performance.csv')
 
+class Git:
+    def __init__(self, remote=None, local_path=None, branch=None):
+        pass
+
+    def clone(self, remote=None, remote_branch=None, local_branch=None):
+        pass
+
+    def add(self, ):
+    def commit(self, msg, branch=None):
+        pass
+
+    def push(self, remote=None, branch=None, ffwd=True):
+        pass
+
+    def is_branch_exists(self):
+        pass
+
+    def create_branch(self, name):
+        pass
+
+    def tag(self, branch, tag):
+        import git
+        git.Repo.crea
+        pass
