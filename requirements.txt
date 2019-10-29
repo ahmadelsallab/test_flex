@@ -1,7 +1,7 @@
 pandas==0.23.0
 numpy==1.12.1
 Keras==2.2.2
-nltk==3.3
+nltk==3.4.5
 scikit_learn==0.21.2
 PyYAML==5.1.1
 dvc
